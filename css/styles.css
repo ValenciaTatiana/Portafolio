@@ -1,0 +1,121 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+}
+.header-contenedor {
+    background-color: #F5F5F5;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 10rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.header-nav p,
+.header-nav h3 {
+    color: #464646;  
+}
+.nav-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.nav-enlaces a {
+    padding: 1rem;
+    color: #A2A2A2;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .nav-enlaces {
+        display: none;
+    }
+    .header-nav {
+        padding: 2rem 1rem;
+        font-weight: 400;
+    }
+}
+.presentacion-contenedor {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 2rem;
+    align-items: start;
+    padding: 1rem;
+}
+.presentacion-info {
+    grid-row: 2;
+    line-height: 1.2; /* Altura de línea para mejorar la legibilidad */
+}
+.presentacion-titulo {
+    color: #464646;
+    margin: 1rem 0;
+}
+.presentacion-subtitulo {
+    margin: 1rem 0;
+    font-weight: 400;
+}
+.presentacion-personal {
+    color: #464646;
+    font-size: 1.7rem;
+}
+.presentacion-foto {
+    border-radius: 70%;
+    grid-row: 1;
+    width: 15rem;
+}
+.presentacion-redes {
+    display: flex;
+    gap: 1rem;
+}
+.presentacion-redes a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: #464646;
+}
+.presentacion-redes img {
+    margin-left: 0.5rem;
+    width: 3rem;
+}
+@media (min-width: 768px) {
+    .presentacion-personal {
+        color: #464646;
+        font-size: 2rem;
+    }
+    .presentacion-redes {
+        display: flex;
+        gap: 2rem;
+        font-size: 1.8rem;
+        margin: 2rem 0;
+    }
+    .presentacion-contenedor {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        align-items: center;
+    }
+    .presentacion-foto {
+        grid-column: 2/3;
+        width: 20rem;
+    }
+    .presentacion-info {
+        grid-row: 1/2;
+        line-height: 1.2; /* Altura de línea para mejorar la legibilidad */
+    }
+}
+@media (min-width: 1440px) {
+    .presentacion-contenedor {
+        margin: 0 10rem;
+        gap: 5rem;
+        justify-items: center;
+        align-items: center;
+    }
+    .presentacion-foto {
+        width: 25rem;
+    }
+}
