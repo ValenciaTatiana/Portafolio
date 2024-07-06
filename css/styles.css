@@ -52,6 +52,7 @@ body {
     line-height: 1.2; /* Altura de línea para mejorar la legibilidad */
 }
 .presentacion-titulo {
+    font-size: 3.5rem;
     color: #464646;
     margin: 1rem 0;
 }
@@ -117,5 +118,245 @@ body {
     }
     .presentacion-foto {
         width: 25rem;
+    }
+}
+.sobre-mi-contenedor,
+.formacion-contenedor {
+    background-color: #EAF2FD;
+    padding: 3rem 1rem;
+    color: #464646;
+}
+.sobre-mi-titulo {
+    font-size: 3.5rem;
+    margin: 0;
+}
+.sobre-mi-info {
+    font-size: 1.7rem;
+}
+@media (min-width: 768px) {
+    .sobre-mi-info {
+        font-size: 2rem;
+    }
+}
+@media (min-width: 1440px) {
+    .sobre-mi-contenedor {
+        padding: 4rem 10rem;
+    }
+}
+.contenedor-skills-hobbies,
+.experiencia-contenedor {
+    background-color: #F5F5F5;
+    padding: 3rem 1rem;
+    color: #464646;
+}
+.skills-titulo{
+    padding-bottom: 3rem;
+}
+.skills-titulo,
+.hobbies-titulo,
+.formacion-academica,
+.experiencia-titulo {
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 0;
+}
+.skills-contenedor img,
+.hobbies-contenedor img {
+    width: 17rem;
+}
+.skills-contenedor,
+.hobbies-contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.hobbies-titulo {
+    padding: 3rem 0;
+}
+@media (min-width: 768px) {
+    .skills-contenedor img,
+    .hobbies-contenedor img {
+        width: 23rem;
+    }
+    .skills-contenedor,
+    .hobbies-contenedor {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+}
+@media (min-width: 1440px) {
+    .contenedor-skills-hobbies {
+        padding: 4rem 10rem;
+    }
+    .skills-contenedor img,
+    .hobbies-contenedor img {
+        width: 25rem;
+    }
+    .skills-contenedor,
+    .hobbies-contenedor {
+        display: flex;
+        gap: 2rem;
+    }
+}
+.formacion-universitaria,
+.formacion-complementaria,
+.experiencia-subtitulo {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.formacion-itm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.formacion-itm img,
+.formacion-certificados img {
+    width: 25rem;
+}
+.formacion-nombre-instituto,
+.experiencia-nombre-proyecto {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.formacion-duracion {
+    color: #2A7AE4;
+    font-weight: 700;
+    margin-top: 0;
+    text-align: center;
+}
+.formacion-certificados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.formacion-mas-certificados {
+    background-color: #2A7AE4;
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+@media (min-width: 768px) {
+    .formacion-certificados {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center
+    }
+    .formacion-itm img,
+    .formacion-certificados img {
+        width: 33rem;
+    }
+    .formacion-mas-certificados {
+        grid-column: 1/3;
+    }
+}
+@media (min-width: 1440px) {
+    .formacion-certificados {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+    .formacion-mas-certificados {
+        grid-column: 1/5;
+    }
+}
+.experiencia-videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video {
+    width: 32rem;
+}
+.experiencia-enlace-git {
+    display: flex;
+    background-color: #2A7AE4;
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+@media (min-width: 768px) {
+    .experiencia-videos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-items: center;
+        gap: 2rem;
+    }
+    .video-ciphertext {
+        grid-column: 1/3;
+    }
+    .ciphertext {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .video-BR {
+        grid-column: 2/4;
+    }
+    .bienes-raices {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .video-UpTask {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .upTask {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    .video {
+        width: 48rem;
+    }
+}
+@media (min-width: 1440px) {
+    .experiencia-videos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-items: center;
+        gap: 3rem;
+    }
+    .video-ciphertext {
+        grid-column: 1/4;
+    }
+    .ciphertext {
+        grid-column: 4/5;
+    }
+    .video-BR {
+        grid-column: 2/5;
+    }
+    .bienes-raices {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .video-UpTask {
+        grid-column: 1/4;
+    }
+    .upTask {
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }
+    .video {
+        width: 100rem;
+    }
+    .experiencia-nombre-proyecto {
+        font-size: 3rem;
+    }
+    .experiencia-enlace-git {
+        margin: 1rem;
+        padding: 2rem 3rem;
+        border-radius: 1rem;
+        font-size: 2rem;
     }
 }
