@@ -121,7 +121,8 @@ body {
     }
 }
 .sobre-mi-contenedor,
-.formacion-contenedor {
+.formacion-contenedor,
+.contactame-contenedor {
     background-color: #EAF2FD;
     padding: 3rem 1rem;
     color: #464646;
@@ -193,7 +194,7 @@ body {
     }
     .skills-contenedor img,
     .hobbies-contenedor img {
-        width: 25rem;
+        width: 23rem;
     }
     .skills-contenedor,
     .hobbies-contenedor {
@@ -258,6 +259,13 @@ body {
     }
 }
 @media (min-width: 1440px) {
+    .formacion-contenedor {
+        padding: 4rem 10rem;
+    }
+    .formacion-itm img,
+    .formacion-certificados img {
+        width: 30rem;
+    }
     .formacion-certificados {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -320,6 +328,9 @@ body {
     }
 }
 @media (min-width: 1440px) {
+    .experiencia-contenedor {
+        padding: 4rem 10rem;
+    }
     .experiencia-videos {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -348,7 +359,7 @@ body {
         grid-row: 3/4;
     }
     .video {
-        width: 100rem;
+        width: 92rem;
     }
     .experiencia-nombre-proyecto {
         font-size: 3rem;
@@ -359,4 +370,77 @@ body {
         border-radius: 1rem;
         font-size: 2rem;
     }
+}
+.contactame-titulo {
+    margin-top: 0;
+    font-size: 3.5rem;
+}
+.contactame-subtitulo {
+    margin: 0;
+}
+.contactame-formulario {
+    margin-top: 2rem;
+}
+.img-contactame {
+    display: none;
+}
+input,
+textarea {
+    border: none;
+    border-bottom: 1px solid #A2A2A2;
+    margin: 1rem 0;
+    width: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+input:focus,
+textarea:focus {
+    outline: none;
+    border-bottom: 1px solid #2A7AE4;
+}
+textarea {
+    height: 10rem;
+    resize: none;
+}
+.contactame-boton {
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+    width: 50%;
+    padding: 1.5rem;
+}
+@media (min-width: 768px) {
+    .contactame-boton {
+        width: 30%;
+
+    }
+}
+@media (min-width: 1440px) {
+    .contactame-contenedor {
+        padding: 4rem 10rem;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 3rem;
+    }
+    .img-contactame {
+        display: block;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .formulario {
+        grid-column: 2 / 3;
+        grid-row: 1;
+    }
+}
+.footer-contenedor {
+    padding: 2rem;
+    text-align: center;
+}
+.footer-fecha {
+    margin-top: 0.5rem;
+    color: #464646;
+}
+.footer-titulo {
+    margin-bottom: 0.5rem;
+    color: #464646;
 }

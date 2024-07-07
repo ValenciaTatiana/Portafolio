@@ -147,35 +147,36 @@
                     <video class="video" controls>
                         <source src="video/UpTask.mp4" type="video/mp4">
                     </video>
-                </div class="upTask">
-                <div>
+                </div>
+                <div class="upTask">
                     <h3 class="experiencia-nombre-proyecto">UpTask</h3>
                     <a class="experiencia-enlace-git" href="https://github.com/ValenciaTatiana/UpTask"
                         target="_blank">Repositorio</a>
                 </div>
             </div>
         </section>
-        <section>
-            <h2>Contactame</h2>
-            <p>¿Quieres que Contactame?</p>
-            <p>Complete el siguiente formulario y me pondre en contacto con usted.</p>
-            <form>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre">
-                <label for="email">E-mail</label>
-                <input type="email" id="email">
-                <label for="numero">Numero</label>
-                <input type="number" id="numero">
-                <label for="numero">Asunto</label>
-                <input type="number" id="numero">
-                <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje">Mensaje</textarea>
-            </form>
+        <section class="contactame-contenedor">
+            <div class="formulario">
+                <h2 class="contactame-titulo">Contactame</h2>
+                <p class="contactame-subtitulo">¿Quieres que Contactame?</p>
+                <p class="contactame-subtitulo">Complete el siguiente formulario y me pondre en contacto con usted.</p>
+                <form class="contactame-formulario">
+                    <input type="text" placeholder="Nombre">
+                    <input type="email" placeholder="E-mail">
+                    <input type="number" placeholder="Numero" min="0">
+                    <input type="text" placeholder="Asunto">
+                    <textarea placeholder="Mensaje"></textarea>
+                    <input class="contactame-boton" type="button" value="Enviar Mensaje">
+                </form>
+            </div>
+            <div class="img-contactame">
+                <img height="630px" src="img/telefono contactame.jpg" alt="">
+            </div>
         </section>
     </main>
-    <footer>
-        <h3>Desarrollado por Tatiana Cuadros</h3>
-        <p>2024</p>
+    <footer class="footer-contenedor">
+        <h3 class="footer-titulo">Desarrollado por Tatiana Cuadros</h3>
+        <p class="footer-fecha">2024</p>
     </footer>
 </body>
 
