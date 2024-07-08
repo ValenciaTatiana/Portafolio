@@ -155,18 +155,19 @@
                 </div>
             </div>
         </section>
+        <div class="alertas"></div>
         <section class="contactame-contenedor">
             <div class="formulario">
                 <h2 class="contactame-titulo">Contactame</h2>
                 <p class="contactame-subtitulo">¿Quieres que Contactame?</p>
                 <p class="contactame-subtitulo">Complete el siguiente formulario y me pondre en contacto con usted.</p>
                 <form class="contactame-formulario">
-                    <input type="text" placeholder="Nombre">
-                    <input type="email" placeholder="E-mail">
-                    <input type="number" placeholder="Numero" min="0">
-                    <input type="text" placeholder="Asunto">
-                    <textarea placeholder="Mensaje"></textarea>
-                    <input class="contactame-boton" type="button" value="Enviar Mensaje">
+                    <input type="text" placeholder="Nombre" name="nombre">
+                    <input type="email" placeholder="E-mail" name="email">
+                    <input type="number" placeholder="Celular" min="0" name="telefono">
+                    <input type="text" placeholder="Asunto" name="asunto">
+                    <textarea placeholder="Mensaje" name="mensaje"></textarea>
+                    <input class="contactame-boton" type="submit" value="Enviar Mensaje">
                 </form>
             </div>
             <div class="img-contactame">
@@ -178,6 +179,7 @@
         <h3 class="footer-titulo">Desarrollado por Tatiana Cuadros</h3>
         <p class="footer-fecha">2024</p>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

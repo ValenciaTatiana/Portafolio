@@ -444,3 +444,23 @@ textarea {
     margin-bottom: 0.5rem;
     color: #464646;
 }
+.alerta-exito,
+.alerta-error {
+    margin: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.alerta-error {
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 1rem;
+    color: red;
+    font-weight: bold;
+    border-left: 5px solid red;
+}
+.alerta-exito {
+    background-color: rgba(60, 255, 0, 0.5);
+    padding: 1rem;
+    color: rgb(25, 110, 29);
+    font-weight: bold;
+    border-left: 5px solid rgb(25, 110, 29);
+}
