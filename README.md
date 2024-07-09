@@ -78,5 +78,11 @@ Este es mi portafolio personal, donde podrás encontrar:
 # 📲Página Web Responsive💻
 ![Portafolio respon](https://github.com/ValenciaTatiana/Portafolio/assets/157426277/d6bf9daa-321f-44d6-a9f8-1a3eb8415a1b)
 
+# Insignia y Certificado🏅
+Insignia y certificado entregados por Alura CHALLENGES - ONE, por la finalización del *PROYECTO: PORTAFOLIO*.
+![Badge-Portfólio](https://github.com/ValenciaTatiana/Portafolio/assets/157426277/d83e0489-da5e-4a25-9189-91ad07634132)
+#
+![CERTIFICADO PORTAFOLIO](https://github.com/ValenciaTatiana/Portafolio/assets/157426277/37cf7ce9-d957-4602-94cf-13f5f3694a55)
+
 # Sitio Web Online 💥
 Para acceder al sitio web en línea, por favor visita el siguiente enlace: [https://bucolic-yeot-54fbcc.netlify.app/](https://668d4e3ae0967c7f23bb99a5--lighthearted-froyo-3e5764.netlify.app/#proyectos)
