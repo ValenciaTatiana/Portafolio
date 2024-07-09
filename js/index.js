@@ -10,7 +10,6 @@ document.querySelector(".contactame-formulario").addEventListener('submit', func
     const fromData = new FormData(this);
 
     for (const [name, value] of fromData.entries()) {
-        console.log(`${name}: ${value}`);
 
         if (value.trim().length === 0 || value === "0") {
             errores.push(`El campo ${name} es obligatorio`);

@@ -9,6 +9,7 @@ body {
     background-color: #F5F5F5;
 }
 .header-nav {
+    background-color: #F5F5F5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,6 +111,23 @@ body {
     }
 }
 @media (min-width: 1440px) {
+    .header-contenedor {
+        background-color: #F5F5F5;
+        margin-top: 10rem;
+    }
+    .header-nav {
+        background-color: #F5F5F5;
+        padding: 1.5rem 10rem;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+        box-sizing: border-box;
+    }
+    section[id] {
+        scroll-margin-top: 8rem;
+    }
     .presentacion-contenedor {
         margin: 0 10rem;
         gap: 5rem;
